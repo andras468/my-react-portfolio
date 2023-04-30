@@ -15,8 +15,8 @@ const SOCIAL_PROFILES = [
     id: 2,
     icon: githubIcon,
     title: 'GitHub',
-    link: 'https://github.com',
-    visible: false,
+    link: 'https://github.com/andras468?tab=repositories',
+    visible: true,
   },
   {
     id: 3,
