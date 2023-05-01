@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import Projects from './Projects';
 import SocialProfiles from './SocialProfiles';
-import profile from './assets/profile.jpeg';
+import profile from '../assets/profile.jpeg';
 import Title from './Title';
+import Weather from './Weather';
 
 class App extends Component {
   state = {
@@ -16,6 +17,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        <Weather />
         <img src={profile} alt='profile' className='profile' />
         <h1>Hello!</h1>
         <p>My name is Andras.</p>
